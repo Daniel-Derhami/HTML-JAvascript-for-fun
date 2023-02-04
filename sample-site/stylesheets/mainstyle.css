@@ -1,6 +1,6 @@
 p,li{
     font-size: 17px;
-    line-height: 2;
+
     letter-spacing: 1px;
 
 }
@@ -12,4 +12,13 @@ img{
 h1{
  font-size: 65px;
     text-align: center;
+}
+
+#linkedin-profile{
+    font-style: italic;
+}
+
+
+.test-class{
+    color: red;
 }
