@@ -1,9 +1,15 @@
-P{
-    font-style: italic;
-    size: 30px;
-    border: 1px solid red;
+p,li{
+    font-size: 17px;
+    line-height: 2;
+    letter-spacing: 1px;
+
 }
 
 img{
     width: 200px;
     }
+
+h1{
+ font-size: 65px;
+    text-align: center;
+}
