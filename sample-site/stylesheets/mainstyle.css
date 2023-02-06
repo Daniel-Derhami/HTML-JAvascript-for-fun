@@ -23,11 +23,12 @@ h1{
     font-style: italic;
 }
 
-/* define style regard the tag "class" */
+/* define style regard the tag "class" ~~~~~~~~~~~~
 .test-class{
     color: red;
     box-shadow: 2px;
 }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 html{
     background-color: blue;
