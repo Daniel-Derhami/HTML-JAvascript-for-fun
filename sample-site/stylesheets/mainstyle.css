@@ -30,7 +30,8 @@ h1{
 }
 
 html{
-    background-color: yellow;
+    background-color: blue;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -47,4 +48,10 @@ body{
     font-size: 25px;
     color: blue;
     font-family: Arial,Helvetica,Times;
+}
+
+
+img{
+    display: block;
+    margin: auto;
 }
