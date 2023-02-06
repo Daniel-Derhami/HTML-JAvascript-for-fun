@@ -18,11 +18,12 @@ h1{
     text-shadow: 3px 3px 1px black;
 }
 
+/* define style regard the tag "id" */
 #linkedin-profile{
     font-style: italic;
 }
 
-
+/* define style regard the tag "class" */
 .test-class{
     color: red;
     box-shadow: 2px;
@@ -40,6 +41,8 @@ body{
     width: 600px;
 }
 
+
+/* define style regard the tag "id" */
 #list-header{
     font-size: 25px;
     color: blue;
