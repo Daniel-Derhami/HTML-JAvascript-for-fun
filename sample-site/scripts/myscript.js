@@ -7,13 +7,15 @@ alert ('oops!');
 }
 */
 
-var changeImg = document.querySelector('img');
-changeImg.onclick = function () {
+/* Try and cha nge the main image with click */
+var mainImage = document.querySelector('img');
+mainImage.onclick = function () {
     "use strict";
-    var myImg = changeImg.getAttribute('src');
-    if (myImg === 'images/Exclamation-mark.png') {
-        changeImg.src = "images/question.png";
+    var myImages = mainImage.getAttribute('src');
+    if (myImages === 'images/Exclamation-mark.png') {
+        mainImage.setAttribute('src', 'images/question.png');
     } else {
-        changeImg.src = "images/Exclamation-mark.png";
+        mainImage.setAttribute('src', 'images/Exclamation-mark.png');
     }
-}
+};
+
